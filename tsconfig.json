@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": false,
     "skipLibCheck": true,
@@ -13,7 +13,11 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "noEmit": false,
-    "jsx": "react"
+    "typeRoots": [ "node_modules/@types" ],
+    "jsx": "react",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["src"],
   "exclude": ["build", "node_modules"]

@@ -1,11 +1,11 @@
 {
-  "name": "chrome-extension-boilerplate-react",
-  "version": "4.0.1",
-  "description": "A chrome extension boilerplate built with React 17 and Webpack 5",
+  "name": "request-modifier",
+  "version": "0.1.0",
+  "description": "A chrome extension to help you modify request info",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lxieyang/chrome-extension-boilerplate-react.git"
+    "url": "https://github.com/impeiran/request-modifier.git"
   },
   "scripts": {
     "build": "node utils/build.js",
@@ -17,6 +17,9 @@
     "@types/chrome": "0.0.132",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
+    "@types/webpack-env": "^1.16.2",
+    "antd": "^4.16.13",
+    "classnames": "^2.3.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-hot-loader": "^4.13.0"
@@ -43,8 +46,10 @@
     "fs-extra": "^9.1.0",
     "html-loader": "^2.1.0",
     "html-webpack-plugin": "^5.2.0",
-    "node-sass": "^4.14.1",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
     "prettier": "^2.2.1",
+    "sass": "^1.41.1",
     "sass-loader": "^11.0.1",
     "source-map-loader": "^2.0.1",
     "style-loader": "^2.0.0",
